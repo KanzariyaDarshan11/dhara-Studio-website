@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dhara Studio | Dhandhuka Photography</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">DHARA<span>STUDIO</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h3>Welcome to Dhara Studio</h3>
+                <h1>Wedding & Event<br>Photographer</h1>
+                <p>Capturing your life's best stories at Jaganath Darvaja, Dhandhuka.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-gold">BOOK A SHOOT</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="gallery" id="gallery">
+  <h2>Our Photography</h2>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<footer class="main-footer">
+  <p>&copy; 2024 Dhara Studio. All Rights Reserved.</p>
+  <div class="developer-tag">
+    <i class="fas fa-code"></i> 
+    Developed by 
+    <a href="https://www.instagram.com/https://www.instagram.com/kanzariya_darshn__9898?igsh=cjlhdWFmaDA0cmxn" target="_blank" class="dev-link">
+      Kanzariya Darshan Dharmendrabhai 
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</footer>
+
+
+  
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <span onclick="closeLightbox()">×</span>
+  <img id="lightbox-img">
+</div>
+    <section id="reviews" class="reviews">
+    <div class="container">
+        <span class="sub-title">Testimonials</span>
+        <h2>What Our Clients Say</h2>
+        
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Best wedding photographer in Dhandhuka! They captured every emotion perfectly. Highly recommend Dhara Studio."</p>
+                <h4>- Rajesh Chavda</h4>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Very creative pre-wedding shoot. The cinematic video was like a movie. Thank you for the memories!"</p>
+                <h4>- Priya Shah</h4>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Excellent service for my son's first birthday. The album quality is premium and the staff is very polite."</p>
+                <h4>- Amit Patel</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="location" class="location">
+    <h2>Visit Our Studio</h2>
+    <p> Near Jaganath Darvaja , Dhandhuka</p>
+    
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14748.9743513337!2d71.9701416!3d22.3633198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959395995959595%3A0x9595959595959595!2sDhandhuka%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="450" 
+            style="border:0; border-radius: 15px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+
+    <section id="about" class="about">
+        <h2>About Dhara Studio</h2>
+        <p>Specializing in Wedding, Pre-Wedding, and Baby Shower photography in Dhandhuka. We turn your moments into memories.</p>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Our Packages</h2>
+        <div class="price-grid">
+            <div class="card">
+                <h3>Wedding</h3>
+                <p class="amt">Starting ₹21,000</p>
+            </div>
+            <div class="card highlighted">
+                <h3>Pre-Wedding</h3>
+                <p class="amt">Starting ₹51,000</p>
+            </div>
+            <div class="card">
+                <h3>Events</h3>
+                <p class="amt">Starting ₹7,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <div class="info">
+                <p>📍Near Jaganath Darvaja , Dhandhuka</p>
+                <a href= https://maps.app.goo.gl/exsMppKm4T5bRbbM6="_blank" class="map-link">Open in Google Maps</a>
+            </div>
+            
+            <form id="whatsappForm">
+                <input type="text" id="userName" placeholder="Your Name" required>
+                <select id="userEvent">
+                    <option value="Wedding Photography">Wedding</option>
+                    <option value="Pre-Wedding Film">Pre-Wedding</option>
+                    <option value="Baby Shower / Srimant">Baby Shower</option>
+                    <option value="Birthday Party">Birthday</option>
+                </select>
+                <button type="button" onclick="sendInquiry()" class="btn-gold">SEND INQUIRY VIA WHATSAPP</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

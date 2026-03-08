@@ -1,0 +1,26 @@
+function sendInquiry() {
+    // 1. Get user input
+    const name = document.getElementById('userName').value;
+    const event = document.getElementById('userEvent').value;
+    
+    // 2. Your phone number (replace with your actual 10-digit number)
+    const myNumber = "919898755600"; 
+
+    // 3. Validation
+    if (name.trim() === "") {
+        alert("Please enter your name!");
+        return;
+    }
+    
+
+    // 4. Create the message
+    const message = `Hello Dhara Studio! My name is ${name}. I am interested in booking a ${event} shoot. Please share more details and the price list.`;
+    
+    // 5. Build WhatsApp URL
+    const whatsappUrl = `https://wa.me/${9898755600
+   
+    }?text=${encodeURIComponent(message)}`;
+
+    // 6. Redirect to WhatsApp
+    window.open(whatsappUrl, '_blank');
+}
